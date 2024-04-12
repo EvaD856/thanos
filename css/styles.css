@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+blockquote{
+	font-size:4em;
+	padding:4px;
+	text-align: center;
+	font-family: 'Orbitron';
+	background-color:lightslategray;
+}
+
+h1{
+	font-family:'Orbitron';
+	margin:1%;
+}
+h2{
+	font-family:'Tilt Neon';
+	font-size:1em;
+	font-weight:100;
+}
+
+body{
+	background-color:mediumpurple;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav ul li{
+	display:inline-block;
+	color:white;
+	font-family:'Orbitron';
+	margin: 0 3%;
+	font-size:1.5em;
+}
+
+nav ul li a {
+	text-decoration:none;
+	color:white;
+}
+
+nav ul li a:hover{
+	color:darkred;
+}
+
+main{
+	background-color:white;
+	padding:2%;
+	font-size:1.5em;
+	margin: 40px 0;
+	font-family:'Tilt Neon';
+	border-color:yellow;
+	border-width: thick;
+	border-style: dashed;
+	
+}
+
+main img{
+	width:30%;
+	border-style:double;
+	border-radius:3px;
+	float:right;
+	margin: 1%;
+}
+
+footer p{
+	color:white;
+	font-family:"Orbitron";
+	margin: 5% 0;
+}
+
+label{
+	font-size:1.5em;
+	font-family:'Orbitron';
+}
+
+input{
+	font-size:1.5em;
+	margin:5px 0;
+	font-family:'Orbitron';
+}
+
+#subutton{
+	border-radius:10px;
+	margin: 0 5px;
+	font-family:'Orbitron';
+}
+
+#subutton:hover{
+	background-color:rgba(22,113,110,1.00);
+	color:white;
+	font-family:'Orbitron';
+}
+
+#resutton{
+	border-radius:10px;
+	font-family:'Orbitron';
+}
+
+#resutton:hover{
+	background-color:rgba(22,113,110,1.00);
+	color:white;
+}
+
+#pnews{
+	font-family:'Orbitron';
+	margin: 0 0 2% 0;
+}
+
+#bigT{
+	font-size:2em;
+}
